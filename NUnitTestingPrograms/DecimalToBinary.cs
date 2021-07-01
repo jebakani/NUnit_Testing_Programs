@@ -18,9 +18,10 @@ namespace NUnitTestingPrograms
             //calling the coversion method
             int binary = decimalToBinary.DecToBin(deci);
             Console.WriteLine("The binary value of {0} is : {1}",deci,binary);
-
+           
         }
-        private int DecToBin(int dec)
+
+        public int DecToBin(int dec)
         {
             int binaryNum = 0;
             int remainder, place = 1;
