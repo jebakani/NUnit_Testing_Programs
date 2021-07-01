@@ -34,7 +34,7 @@ namespace NUnitTestingPrograms
         private void FahrenheitToCelsius(int faren)
         {
             int cel;
-            cel = (faren * 9 / 5) + 32;
+            cel = (faren - 32) * 5 / 9;
             Console.WriteLine("{0} degree Fahrenheit = {1} degree Celsius", faren, cel);
 
         }
