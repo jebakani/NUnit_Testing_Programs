@@ -3,6 +3,7 @@
 namespace NUnitTestingPrograms
 {
     /// <summary>
+    /// NUnit testing programs
     /// P1- Genrating changes for the given amount in vending machine
     /// P2- Computing the date to display the day using Gregorian calendar formula
     /// P3- Converts the temperature as celsius to fahrenheit and vice verse
